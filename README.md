@@ -7,4 +7,4 @@ Obaveze:
 2. Izlazak na ispit na rokovima.
 3. Dodatno za višu ocjenu: izraditi empirijski projekt u "R Markdownu"
 
-![slika](https://www.prevoditelj-teksta.com/wp-content/uploads/2016/01/prevoditelj-teksta-statistika-2015.jpg)
+![](https://www.prevoditelj-teksta.com/wp-content/uploads/2016/01/prevoditelj-teksta-statistika-2015.jpg)
