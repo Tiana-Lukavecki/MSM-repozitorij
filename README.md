@@ -1,5 +1,5 @@
 # MSM-repozitorij
-Repozitorij za Multivarijantne statističke metode\
+Repozitorij za Multivarijantne statističke metode  
 
 Obaveze:
 
