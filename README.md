@@ -1,5 +1,5 @@
 # MSM-repozitorij
-Repozitorij za Multivarijantne statističke metode
+Repozitorij za Multivarijantne statističke metode\
 Obaveze:
 
 1. Izraditi esej na neku od tema Computational Social Sciences (5 strana, 5-10 referenci) - preduvjet za izlazak na ispit.
