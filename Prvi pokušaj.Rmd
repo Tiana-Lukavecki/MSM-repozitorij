@@ -1,0 +1,34 @@
+---
+title: "Klaster analiza"
+author: "Tiana Lukavečki"
+output:
+  html_document:
+    code_folding: "show"
+---
+
+***Prikaz podataka***  
+
+```{r, echo=FALSE,message=FALSE}
+library(dplyr)
+library(factoextra)
+```
+ + Prikaz podataka o igračima
+```{r}
+igraci <- data.frame( X = c(-1,-2,8,7,-12,-15), Y = c(1,-3,6,-8,8,0))
+print(igraci)
+```
+ + Prikaz udaljenosti igrača
+```{r}
+distIgraci <- dist(igraci, method = "euclidean")
+print(distIgraci)
+```
+***Stvaranje klastera***
+```{r}
+hcIgraci <- hclust(distIgraci, method = 'complete')
+klasteri <- cutree(hcIgraci, k = 2)
+cluster <- klasteri
+IgraciKlaster <- mutate(igraci, cluster)
+print(IgraciKlaster)
+
+```
+
